@@ -30,7 +30,7 @@ fn main(){
     
     let args: Vec<u64> = values
                         .split_whitespace()         // Split the args by the whitespace
-                        .map(|x| x.parse::<u64>().expect("Parse error."))  // Dereference each value
+                        .map(|x| x.parse::<u64>().expect("Parse error."))  // Parse each value
                         .collect();                 // Collect them into a Vector: u64
 
     println!("GCD of {} and {} is {}", args[0], args[1], gcd(args[0], args[1]));

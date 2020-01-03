@@ -8,6 +8,10 @@ edition = "2018"
 name = "fib"
 path = "src/fib.rs"
 
+[[bin]]
+name = "gcd"
+path = "src/gcd.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

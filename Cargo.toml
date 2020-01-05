@@ -12,6 +12,10 @@ path = "src/fib.rs"
 name = "gcd"
 path = "src/gcd.rs"
 
+[[bin]]
+name = "list"
+path = "src/linked_list.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

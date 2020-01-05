@@ -39,6 +39,7 @@ impl List {
     pub fn pop(&mut self) -> Option<i64> {
         self.head.take().map(|node| {
             self.head = node.next;
+            self.len -= 1;
             node.value
         })
     }

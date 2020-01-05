@@ -16,8 +16,8 @@ You can also run the binaries from the target folder itself. **E.g.** `./target/
 
 Progress  |  Name|
 :--------:|:----:|
-:heavy_check_mark:      |Fibonacci|
-:heavy_check_mark:      |Euclid's GCD|
+:heavy_check_mark:      |Fibonacci + Recursive|
+:heavy_check_mark:      |Euclid's GCD + Recursive|
 :heavy_check_mark:      |Linked list|
 :hourglass_flowing_sand:      |Doubly linked list|
 :hourglass_flowing_sand:      |Sorting algs...|

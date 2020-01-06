@@ -21,28 +21,6 @@ impl Node {
     }
 }
 
-impl Iterator for Node {
-    type Item = &Node;
-
-    fn next(&mut self) -> Option<Self::Item> {
-        match self.next {
-            Some(node) => Some(node.as_ref()),
-            None => None
-        }
-    }
-}
-
-
-impl Iterator for List { // A custom iterator trait for the List.
-    type Item = Node;
-
-    fn next(&mut self) -> Option<Self::Item> {
-        let node = &self.head;
-        match
-    }
-}
-
-
 impl List {
     pub fn new(val: i64) -> List {
         List {

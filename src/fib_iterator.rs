@@ -24,7 +24,8 @@ impl Fib {
 }
 
 fn main() {
-    let fib = Fib::new();
-    let values: Vec<u64> = fib.take(20).collect();
-    println!("Fibonacci iterator -> {:?}", values);
+    let fib = Fib::new();  // Initialize the structure
+    let values: Vec<u64> = fib.take(20).collect();  // Take the first 20 values and store them in a vector
+    println!("Fibonacci iterator -> {:?}", values); // Prints a vector in debug mode
+                                                    // Otherwise it would requre custom fmt implementation for Vec
 }

@@ -21,12 +21,26 @@ impl Node {
     }
 }
 
+impl Iterator for Node {
+    type Item = &Node;
 
-// impl Iterator for List { // A custom iterator trait for the List.
-//     fn next(&mut self) -> Option<i64> {
+    fn next(&mut self) -> Option<Self::Item> {
+        match self.next {
+            Some(node) => Some(node.as_ref()),
+            None => None
+        }
+    }
+}
 
-//     }
-// }
+
+impl Iterator for List { // A custom iterator trait for the List.
+    type Item = Node;
+
+    fn next(&mut self) -> Option<Self::Item> {
+        let node = &self.head;
+        match
+    }
+}
 
 
 impl List {
@@ -68,14 +82,6 @@ impl List {
         }
         result
     }
-
-    // pub fn get(&self, idx: u64) -> i64 {
-    //     let mut node = &self.head;
-    //     for _ in 0..idx {
-
-    //     }
-
-    // }
 
     pub fn ls(&self) {
         let mut node = &self.head;

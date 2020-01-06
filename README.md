@@ -7,7 +7,7 @@
 
 ## 1. INSTALLATION
 
-In order to run the binaries just `cd` into the folder and run `~$ cargo build`.    
+In order to build the binaries just `cd` into the folder and run `~$ cargo build`.    
 After that run each desired example with `cargo run --bin BINARY_NAME`.  
 You can also run the binaries from the target folder itself. **E.g.** `./target/release/list`
 
@@ -17,6 +17,7 @@ You can also run the binaries from the target folder itself. **E.g.** `./target/
 Progress  |  Name|
 :--------:|:----:|
 :heavy_check_mark:      |Fibonacci + Recursive|
+:heavy_check_mark:      |Fibonacci iterator|
 :heavy_check_mark:      |Euclid's GCD + Recursive|
 :heavy_check_mark:      |Linked list|
 :hourglass_flowing_sand:      |Doubly linked list|

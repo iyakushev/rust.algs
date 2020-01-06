@@ -7,7 +7,7 @@
 
 ## 1. INSTALLATION
 
-In order to run the binaries just `cd` into the folder and run `~$ cargo build`.    
+In order to build the binaries just `cd` into the folder and run `~$ cargo build`.    
 After that run each desired example with `cargo run --bin BINARY_NAME`.  
 You can also run the binaries from the target folder itself. **E.g.** `./target/release/list`
 

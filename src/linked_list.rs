@@ -21,6 +21,14 @@ impl Node {
     }
 }
 
+
+// impl Iterator for List { // A custom iterator trait for the List.
+//     fn next(&mut self) -> Option<i64> {
+
+//     }
+// }
+
+
 impl List {
     pub fn new(val: i64) -> List {
         List {
@@ -43,6 +51,31 @@ impl List {
             node.value
         })
     }
+
+    pub fn find_value(&self, value: i64) -> Vec<i64> {
+        let mut node = &self.head;
+        let mut result = Vec::new();
+        let mut idx = 0;
+        loop {
+            match node {
+                Some(ptr) => {
+                    if value == ptr.value {result.push(idx);}
+                    node = &ptr.next;
+                },
+                None => break,
+            }
+            idx += 1;
+        }
+        result
+    }
+
+    // pub fn get(&self, idx: u64) -> i64 {
+    //     let mut node = &self.head;
+    //     for _ in 0..idx {
+
+    //     }
+
+    // }
 
     pub fn ls(&self) {
         let mut node = &self.head;

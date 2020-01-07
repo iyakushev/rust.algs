@@ -33,7 +33,7 @@ fn quick_sort<T,F>(v: &mut [T], f: &F)
 
 
 fn main() {
-    let mut v = random::generate_vec(10, -10., 30.);
+    let mut v = random::generate_vec(10, -10, 30);
     println!("BEFORE: {:?}", v);
     
     quick_sort(v.as_mut_slice(), &|x,y| x > y);

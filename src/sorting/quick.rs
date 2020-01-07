@@ -1,6 +1,6 @@
 mod random;
 
-fn partition(v: &mut [f64]) -> usize {
+fn partition<T: Ord>(v: &mut [T]) -> usize {
     let pivot = v.len() / 2;
     let last_index = v.len() - 1;
  
@@ -8,7 +8,7 @@ fn partition(v: &mut [f64]) -> usize {
  
     let mut border = 0;
     for i in 0..last_index {
-        if v[i] < v[last_index] {
+        if v[i] <= v[last_index] {
             v.swap(i, border);  // Move everything below pivot to the left
             border += 1;       // Update the border value for the left part
         }
@@ -19,7 +19,7 @@ fn partition(v: &mut [f64]) -> usize {
 }
 
 
-fn quick_sort(v: &mut [f64]) {
+fn quick_sort<T: Ord>(v: &mut [T]) {
     if v.len() <= 1 {return}
     
     let pivot = partition(v);
@@ -30,7 +30,7 @@ fn quick_sort(v: &mut [f64]) {
 
 
 fn main() {
-    let mut v = random::generate_vec(10, -10., 30.);
+    let mut v = random::generate_vec(10, -10, 30);
     println!("BEFORE: {:?}", v);
     quick_sort(v.as_mut_slice());
     println!("AFTER: {:?}", v);

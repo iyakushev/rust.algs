@@ -33,7 +33,12 @@ path = "src/sorting/quick.rs"
 name = "quick_closure"
 path = "src/sorting/quick_closure.rs"
 
+[[bin]]
+name = "count"
+path = "src/sorting/counting.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 rand = "0.7.2"
+num  = "0.2"

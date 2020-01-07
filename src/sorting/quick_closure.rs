@@ -1,5 +1,7 @@
 mod random;
 
+//              A way to define a template type
+//              VVVVV
 fn partition<T,F:Fn(&T,&T)->bool> (v: &mut [T], cmp: &F) -> usize {
     let pivot = v.len() / 2;
     let last_index = v.len() - 1;
@@ -20,7 +22,7 @@ fn partition<T,F:Fn(&T,&T)->bool> (v: &mut [T], cmp: &F) -> usize {
 
 
 fn quick_sort<T,F>(v: &mut [T], f: &F) 
-    where F: Fn(&T,&T)->bool {
+    where F: Fn(&T,&T)->bool { // Template type also can be stated this way
     if v.len() <= 1 {return}
     
     let pivot = partition(v, f);

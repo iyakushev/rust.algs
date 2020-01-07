@@ -36,9 +36,9 @@ fn main() {
     let mut v = random::generate_vec(10, -10, 30);
     println!("BEFORE: {:?}", v);
     
-    quick_sort(v.as_mut_slice(), &|x,y| x > y);
+    quick_sort(v.as_mut_slice(), &|x,y| x >= y);
     println!("AFTER: {:?}", v);
 
-    quick_sort(v.as_mut_slice(), &|x,y| x < y);
+    quick_sort(v.as_mut_slice(), &|x,y| x <= y);
     println!("CLOSURE CHANGE: {:?}", v);
 }

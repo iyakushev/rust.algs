@@ -48,5 +48,17 @@ You can also run the binaries from the target folder itself. **E.g.** `./target/
             <td>:hourglass_flowing_sand:</td>
             <td>quick sort</td>
         </tr>
+        <tr>
+            <td>:hourglass_flowing_sand:</td>
+            <td>merge sort</td>
+        </tr>
+        <tr>
+            <td>:hourglass_flowing_sand:</td>
+            <td>counting sort</td>
+        </tr>
+        <tr>
+            <td>:hourglass_flowing_sand:</td>
+            <td>radix sort</td>
+        </tr>
     </tbody>
 </table>

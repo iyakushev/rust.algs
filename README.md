@@ -38,10 +38,6 @@ You can also run the binaries from the target folder itself. **E.g.** `./target/
             <td>Doubly linked list</td>
         </tr>
         <tr>
-            <td>:hourglass_flowing_sand:</td>
-            <td>quick sort</td>
-        </tr>
-        <tr>
           <td colspan=2 align="center"><b>SORTING</b></td>
         </tr>
         <tr>

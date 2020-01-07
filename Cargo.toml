@@ -25,6 +25,9 @@ path = "src/fib_iterator.rs"
 name = "bubble"
 path = "src/sorting/bubble.rs"
 
+[[bin]]
+name = "quick"
+path = "src/sorting/quick.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

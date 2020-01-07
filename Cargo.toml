@@ -37,6 +37,10 @@ path = "src/sorting/quick_closure.rs"
 name = "count"
 path = "src/sorting/counting.rs"
 
+[[bin]]
+name = "insertion"
+path = "src/sorting/insertion.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

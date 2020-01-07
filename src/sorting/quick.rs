@@ -1,6 +1,6 @@
 mod random;
 
-fn partition<T: Ord>(v: &mut [T]) -> usize {
+fn partition<T: PartialOrd>(v: &mut [T]) -> usize {
     let pivot = v.len() / 2;
     let last_index = v.len() - 1;
  
@@ -19,7 +19,7 @@ fn partition<T: Ord>(v: &mut [T]) -> usize {
 }
 
 
-fn quick_sort<T: Ord>(v: &mut [T]) {
+fn quick_sort<T: PartialOrd>(v: &mut [T]) {
     if v.len() <= 1 {return}
     
     let pivot = partition(v);

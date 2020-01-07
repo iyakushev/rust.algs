@@ -22,6 +22,9 @@ You can also run the binaries from the target folder itself. **E.g.** `./target/
     </thead>
     <tbody align="center">
         <tr>
+          <td colspan=2 align="center"><b>BASICS</b></td>
+        </tr>
+        <tr>
             <td>:heavy_check_mark:</td>
             <td>Fibonacci + Recursive</td>
         </tr>

@@ -45,8 +45,12 @@ You can also run the binaries from the target folder itself. **E.g.** `./target/
             <td>bubble sort</td>
         </tr>
         <tr>
-            <td>:hourglass_flowing_sand:</td>
+            <td>:heavy_check_mark:</td>
             <td>quick sort</td>
+        </tr>
+        <tr>
+            <td>:heavy_check_mark:</td>
+            <td>quick sort with <br/> Templates and Closures</td>
         </tr>
         <tr>
             <td>:hourglass_flowing_sand:</td>

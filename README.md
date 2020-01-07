@@ -13,12 +13,40 @@ You can also run the binaries from the target folder itself. **E.g.** `./target/
 
 
 ## 2. IMPLEMENTATIONS
-
-Progress  |  Name|
-:--------:|:----:|
-:heavy_check_mark:      |Fibonacci + Recursive|
-:heavy_check_mark:      |Fibonacci iterator|
-:heavy_check_mark:      |Euclid's GCD + Recursive|
-:heavy_check_mark:      |Linked list|
-:hourglass_flowing_sand:      |Doubly linked list|
-:hourglass_flowing_sand:      |Sorting algs...|
+<table>
+    <thead>
+        <tr>
+            <th>Progress</th>
+            <th align="center">Name</th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        <tr>
+            <td>:heavy_check_mark:</td>
+            <td>Fibonacci + Recursive</td>
+        </tr>
+        <tr>
+            <td>:heavy_check_mark:</td>
+            <td>Fibonacci iterator</td>
+        </tr>
+        <tr>
+            <td>:heavy_check_mark:</td>
+            <td>Euclid's GCD + Recursive</td>
+        </tr>
+        <tr>
+            <td>:heavy_check_mark:</td>
+            <td>Linked list</td>
+        </tr>
+        <tr>
+          <td colspan=2 align="center"><b>SORTING</b></td>
+        </tr>
+        <tr>
+            <td>:heavy_check_mark:</td>
+            <td>bubble sort</td>
+        </tr>
+        <tr>
+            <td>:hourglass_flowing_sand:</td>
+            <td>quick sort</td>
+        </tr>
+    </tbody>
+</table>

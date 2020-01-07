@@ -29,6 +29,10 @@ path = "src/sorting/bubble.rs"
 name = "quick"
 path = "src/sorting/quick.rs"
 
+[[bin]]
+name = "quick_closure"
+path = "src/sorting/quick_closure.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

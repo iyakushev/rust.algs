@@ -41,6 +41,10 @@ path = "src/sorting/counting.rs"
 name = "insertion"
 path = "src/sorting/insertion.rs"
 
+[[bin]]
+name = "merge"
+path = "src/sorting/merge.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

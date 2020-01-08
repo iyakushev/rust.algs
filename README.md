@@ -37,6 +37,10 @@ You can also run the binaries from the target folder itself. **E.g.** `./target/
             <td>Euclid's GCD + Recursive</td>
         </tr>
         <tr>
+            <td>:heavy_check_mark:</td>
+            <td>Linked list</td>
+        </tr>
+        <tr>
             <td>:hourglass_flowing_sand:</td>
             <td>Doubly linked list</td>
         </tr>

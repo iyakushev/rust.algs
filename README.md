@@ -64,7 +64,7 @@ You can also run the binaries from the target folder itself. **E.g.** `./target/
             <td>insertion sort</td>
         </tr>
         <tr>
-            <td>:hourglass_flowing_sand:</td>
+            <td>:heavy_check_mark:</td>
             <td>merge sort</td>
         </tr>
         <tr>

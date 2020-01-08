@@ -56,12 +56,20 @@ You can also run the binaries from the target folder itself. **E.g.** `./target/
             <td>quick sort with <br/> Templates and Closures</td>
         </tr>
         <tr>
+            <td>:heavy_check_mark:</td>
+            <td>insertion sort</td>
+        </tr>
+        <tr>
             <td>:hourglass_flowing_sand:</td>
             <td>merge sort</td>
         </tr>
         <tr>
-            <td>:hourglass_flowing_sand:</td>
+            <td>:heavy_check_mark:</td>
             <td>counting sort</td>
+        </tr>
+        <tr>
+            <td>:hourglass_flowing_sand:</td>
+            <td>tim sort</td>
         </tr>
         <tr>
             <td>:hourglass_flowing_sand:</td>

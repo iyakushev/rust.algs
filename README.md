@@ -41,6 +41,10 @@ You can also run the binaries from the target folder itself. **E.g.** `./target/
             <td>Linked list</td>
         </tr>
         <tr>
+            <td>:heavy_check_mark:</td>
+            <td>BST</td>
+        </tr>
+        <tr>
             <td>:hourglass_flowing_sand:</td>
             <td>Doubly linked list</td>
         </tr>

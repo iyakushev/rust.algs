@@ -20,7 +20,11 @@ path = "src/linked_list.rs"
 name = "fib_iter"
 path = "src/fib_iterator.rs"
 
-# SORTING
+[[bin]]
+name = "bst"
+path = "src/binary_tree.rs"
+
+# ===  === === === === === SORTING === === === === === === 
 [[bin]]
 name = "bubble"
 path = "src/sorting/bubble.rs"
@@ -44,6 +48,7 @@ path = "src/sorting/insertion.rs"
 [[bin]]
 name = "merge"
 path = "src/sorting/merge.rs"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

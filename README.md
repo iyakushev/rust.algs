@@ -11,7 +11,6 @@ In order to build the binaries just `cd` into the folder and run `~$ cargo build
 After that run each desired example with `cargo run --bin BINARY_NAME`.  
 You can also run the binaries from the target folder itself. **E.g.** `./target/release/list`
 
-
 ## 2. IMPLEMENTATIONS
 <table>
     <thead>
@@ -47,6 +46,13 @@ You can also run the binaries from the target folder itself. **E.g.** `./target/
         <tr>
             <td>:hourglass_flowing_sand:</td>
             <td>Doubly linked list</td>
+        </tr>
+        <tr>
+          <td colspan=2 align="center"><b>Games</b></td>
+        </tr>
+        <tr>
+            <td>:heavy_check_mark:</td>
+            <td><a href="https://github.com/Nyanguy/rust.gol">Game of Life<a></td>
         </tr>
         <tr>
           <td colspan=2 align="center"><b>SORTING</b></td>

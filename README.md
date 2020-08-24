@@ -48,7 +48,7 @@ You can also run the binaries from the target folder itself. **E.g.** `./target/
             <td>Doubly linked list</td>
         </tr>
         <tr>
-          <td colspan=2 align="center"><b>Games</b></td>
+          <td colspan=2 align="center"><b>CELLULAR AUTOMATA</b></td>
         </tr>
         <tr>
             <td>:heavy_check_mark:</td>
